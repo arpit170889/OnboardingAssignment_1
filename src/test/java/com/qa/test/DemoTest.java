@@ -8,6 +8,7 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.safari.SafariDriver;
@@ -56,6 +57,13 @@ public class DemoTest {
 		case "safari":
 			driver = new SafariDriver();
 			break;
+			
+		case "edge":
+			driverLocation = folderPath + "/src/test/resources/driver/msedgedriver";
+			System.out.print("\n-----LOCATION----"+driverLocation);
+			System.setProperty("webdriver.edge.driver", driverLocation);
+			driver = new EdgeDriver();
+			break;	
 			
 		}
 		

@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-01-13T18:32:42Z" name="Default suite" finished-at="2022-01-13T18:32:57Z" duration-ms="15260">
+  <suite started-at="2022-01-14T08:54:01Z" name="Default suite" finished-at="2022-01-14T08:54:17Z" duration-ms="16189">
     <groups>
     </groups>
-    <test started-at="2022-01-13T18:32:42Z" name="Default test" finished-at="2022-01-13T18:32:57Z" duration-ms="15260">
+    <test started-at="2022-01-14T08:54:01Z" name="Default test" finished-at="2022-01-14T08:54:17Z" duration-ms="16189">
       <class name="com.qa.test.Launch">
-        <test-method is-config="true" signature="intilaise()[pri:0, instance:com.qa.test.Launch@63eef88a]" started-at="2022-01-13T18:32:36Z" name="intilaise" finished-at="2022-01-13T18:32:42Z" duration-ms="5345" status="PASS">
+        <test-method is-config="true" signature="intilaise()[pri:0, instance:com.qa.test.Launch@63eef88a]" started-at="2022-01-14T08:53:57Z" name="intilaise" finished-at="2022-01-14T08:54:01Z" duration-ms="4588" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- intilaise -->
-        <test-method signature="LaunchBrowser()[pri:0, instance:com.qa.test.Launch@63eef88a]" started-at="2022-01-13T18:32:42Z" name="LaunchBrowser" finished-at="2022-01-13T18:32:57Z" duration-ms="14914" status="PASS">
+        <test-method signature="LaunchBrowser()[pri:0, instance:com.qa.test.Launch@63eef88a]" started-at="2022-01-14T08:54:01Z" name="LaunchBrowser" finished-at="2022-01-14T08:54:17Z" duration-ms="15924" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchBrowser -->
-        <test-method is-config="true" signature="close()[pri:0, instance:com.qa.test.Launch@63eef88a]" started-at="2022-01-13T18:32:57Z" name="close" finished-at="2022-01-13T18:32:57Z" duration-ms="309" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:com.qa.test.Launch@63eef88a]" started-at="2022-01-14T08:54:17Z" name="close" finished-at="2022-01-14T08:54:17Z" duration-ms="234" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->

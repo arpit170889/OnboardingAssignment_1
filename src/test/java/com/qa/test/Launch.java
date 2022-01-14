@@ -23,8 +23,8 @@ public class Launch extends DemoTest {
 		System.out.print("\nLaunch\n");
 		driver.get("https://www.amazon.in/");
 		driver.findElement(By.xpath("//input[@id='twotabsearchtextbox']")).sendKeys("iPhone X");
-		driver.findElement(By.xpath("//input[@id='twotabsearchtextbox']")).sendKeys(Keys.RETURN);
-		driver.findElement(By.xpath("//span[text()='iOS']")).click();
+		driver.findElement(By.xpath("//input[@id='nav-search-submit-button']")).click();
+		driver.findElement(By.xpath("//div[@class='a-section']//span[text()='iOS']")).click();
 		driver.findElement(By.xpath("//span[@class='a-button a-button-dropdown a-button-small']")).click();
 		driver.findElement(By.xpath("//a[text()='Price: High to Low']")).click();
 		List<WebElement> myList=driver.findElements(By.xpath("//span[@class='a-size-medium a-color-base a-text-normal']"));
