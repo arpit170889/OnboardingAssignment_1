@@ -77,8 +77,8 @@ public class DemoTest {
 	public void close()
 
 	{
-		driver.close();
-		driver.quit();
+//		driver.close();
+//		driver.quit();
 	}
 
 
