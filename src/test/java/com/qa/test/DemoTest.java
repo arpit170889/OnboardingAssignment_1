@@ -54,10 +54,6 @@ public class DemoTest {
 			
 			break;
 			
-		case "safari":
-			driver = new SafariDriver();
-			break;
-			
 		case "edge":
 			driverLocation = folderPath + "/src/test/resources/driver/msedgedriver";
 			System.out.print("\n-----LOCATION----"+driverLocation);
