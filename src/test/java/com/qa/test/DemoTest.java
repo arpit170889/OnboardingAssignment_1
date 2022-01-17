@@ -65,8 +65,8 @@ public class DemoTest {
 		
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
-		driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
-		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		driver.manage().timeouts().pageLoadTimeout(60, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
 
 	}
 
@@ -77,8 +77,8 @@ public class DemoTest {
 	public void close()
 
 	{
-//		driver.close();
-//		driver.quit();
+		driver.close();
+		driver.quit();
 	}
 
 

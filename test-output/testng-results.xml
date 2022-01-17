@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-01-14T14:15:09Z" name="Default suite" finished-at="2022-01-14T14:15:39Z" duration-ms="29418">
+  <suite started-at="2022-01-17T17:51:46Z" name="Default suite" finished-at="2022-01-17T17:52:24Z" duration-ms="37930">
     <groups>
     </groups>
-    <test started-at="2022-01-14T14:15:09Z" name="Default test" finished-at="2022-01-14T14:15:39Z" duration-ms="29418">
+    <test started-at="2022-01-17T17:51:46Z" name="Default test" finished-at="2022-01-17T17:52:24Z" duration-ms="37930">
       <class name="com.qa.test.Launch">
-        <test-method is-config="true" signature="intilaise()[pri:0, instance:com.qa.test.Launch@53251a66]" started-at="2022-01-14T14:15:06Z" name="intilaise" finished-at="2022-01-14T14:15:09Z" duration-ms="3419" status="PASS">
+        <test-method is-config="true" signature="intilaise()[pri:0, instance:com.qa.test.Launch@352c1b98]" started-at="2022-01-17T17:51:43Z" name="intilaise" finished-at="2022-01-17T17:51:46Z" duration-ms="3013" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- intilaise -->
-        <test-method signature="Usecase2()[pri:0, instance:com.qa.test.Launch@53251a66]" started-at="2022-01-14T14:15:09Z" name="Usecase2" finished-at="2022-01-14T14:15:39Z" duration-ms="29384" status="PASS">
+        <test-method signature="Usecase2()[pri:0, instance:com.qa.test.Launch@352c1b98]" started-at="2022-01-17T17:51:46Z" name="Usecase2" finished-at="2022-01-17T17:52:24Z" duration-ms="37912" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Usecase2 -->
-        <test-method is-config="true" signature="close()[pri:0, instance:com.qa.test.Launch@53251a66]" started-at="2022-01-14T14:15:39Z" name="close" finished-at="2022-01-14T14:15:39Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:com.qa.test.Launch@352c1b98]" started-at="2022-01-17T17:52:24Z" name="close" finished-at="2022-01-17T17:52:24Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
