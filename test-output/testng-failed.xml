@@ -5,6 +5,7 @@
     <classes>
       <class name="com.qa.test.Launch">
         <methods>
+          <include name="Usecase1"/>
           <include name="Usecase2"/>
           <include name="close"/>
           <include name="intilaise"/>
